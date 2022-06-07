@@ -6,6 +6,8 @@
 <li>CSS</li>
 <li>Google Fonts</li>
 <li>IonIcons</li>
+
+<h2>Screenshot</h2>
 <p align="center">
 <img src="https://github.com/laurakelly1/flowerbox/blob/main/src/images/screencapture-localhost-3000-2022-06-07-17_19_10.png?raw=true"/>
 </p>
