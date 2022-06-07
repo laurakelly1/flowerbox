@@ -3,6 +3,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footerLeft">
             <a href="#" className="footerIcon"></a>
+            <img src="https://i.imgur.com/KxfWH9J.png"></img>
             <p>FLOWERBOX | EST 2019</p>
         </div>
         <div className="footerMiddle">

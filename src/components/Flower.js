@@ -1,10 +1,12 @@
 const Flower = ({name, image, price, tags}) => {
 
-    // const flowerTags = tags.forEach((ele) => {
-    //     return (
-    //         ele
-    //     )
-    // })
+    const flowerTags = tags.map((ele) => {
+        return (
+            <div className="tag">
+                {ele}
+            </div>
+        )
+    })
 
     return (
       <div className="flower">
@@ -16,7 +18,7 @@ const Flower = ({name, image, price, tags}) => {
             <h4>{price}</h4>
         </div>
         <div className="flowerTags">
-        <h5>{tags}</h5>
+        <h5>{flowerTags}</h5>
         </div>
       </div>
     );
