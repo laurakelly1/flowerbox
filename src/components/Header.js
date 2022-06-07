@@ -8,8 +8,14 @@ const Header = () => {
         <a href="#">location</a>
         <a href="#">contact us</a>
       </div>
-      <img src="https://i.imgur.com/BrtVHqy.png" className="headerImage"></img>
+      <div className="title">
+        <div className="titleText">
+          <h1 className="titleName">flowerbox.</h1>
+          </div>
+          <h2 className="subtitle">FOR ALL YOUR FLORAL NEEDS</h2>
+        
       </div>
+    </div>
   );
 };
 
