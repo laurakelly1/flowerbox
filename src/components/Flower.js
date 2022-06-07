@@ -1,15 +1,22 @@
-const Flower = (props) => {
+const Flower = ({name, image, price, tags}) => {
+
+    // const flowerTags = tags.forEach((ele) => {
+    //     return (
+    //         ele
+    //     )
+    // })
+
     return (
       <div className="flower">
         <div className="flowerImage">
-            <img src={props.image}/>
+            <img src={image} style={{ width: "18rem" }}/>
         </div>
         <div className="flowerData">
-            <h4>{props.title}</h4>
-            <h4>{props.price}</h4>
+            <h4>{name}</h4>
+            <h4>{price}</h4>
         </div>
         <div className="flowerTags">
-        <h5>{props.tags}</h5>
+        <h5>{tags}</h5>
         </div>
       </div>
     );
