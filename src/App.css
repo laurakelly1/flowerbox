@@ -4,43 +4,160 @@
   --blue: #92b2ba;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
+}
+
 #root {
   background-color: whitesmoke;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+
   
 }
+
+/* header */
+
 .header{
   display: flex;
-  flex-flow: column wrap;
-  margin: 10px 30px;
+  flex-flow: column;
+  margin: 20px 100px 0px 100px;
+  
 }
 
 .headerBar {
   background-color: var(--blue);
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: white;
   padding: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 1px 1px 3px #ddd,
+              -1px -1px 3px #ddd,
+              1px -1px 3px #ddd,
+              -1px 1px 3px #ddd;
 }
 
 .headerImage {
   width: 100%;
   margin: 10px auto;
+  box-shadow: 1px 1px 3px #ddd,
+  -1px -1px 3px #ddd,
+  1px -1px 3px #ddd,
+  -1px 1px 3px #ddd;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  margin: 5px 0 0 0;
 }
+
+/* Flower tiles */
 
 .flowerTiles {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 5px 100px 20px 100px;
+  
 }
 
 .flower {
-  border: 1px solid black;
+  width: 32%;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 1px 1px 3px #ddd,
+              -1px -1px 3px #ddd,
+              1px -1px 3px #ddd,
+              -1px 1px 3px #ddd;
+}
+
+.flowerImageFile {
+  width: 100%;
+}
+
+.flowerData {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+.flowerName {
+  color: var(--blue);
+  margin: 0;
+}
+.flowerPrice {
+  margin: 0;
+  background-color: var(--darker-pink);
+  color: white;
+  padding: 2px;
+}
+.flowerTags {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px 5px;
+}
+.tag {
+  background-color: #eeeeee;
+  color: #777777;
+  padding: 2px;
+  margin: 3px;
+}
+/* Footer */
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 20px 100px 20px 100px;             
+}
+
+.footerImage {
+  width: 10vw;
+}
+
+.footerLeft, .footerMiddle, .footerRight {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 30px 0;
+  font-size: 13px;
+}
+
+.footerMiddle {
+  border-left: 1px solid #d8d7d7;
+  border-right: 1px solid #d8d7d7;
+  color: #777777;
+}
+.footerRight {
+  color: #777777;
+}
+.footerLeft {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.logoTitle {
+  color: var(--darker-pink);
+  font-weight: bold;
+}
+
+.footerTitle {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 0 8px 0;
+}
+.logos {
+  color: var(--blue);
+}
+ion-icon {
+  padding: 0 5px;
 }

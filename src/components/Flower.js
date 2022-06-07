@@ -11,15 +11,15 @@ const Flower = ({name, image, price, tags}) => {
     return (
       <div className="flower">
         <div className="flowerImage">
-            <img src={image} style={{ width: "18rem" }}/>
+            <img className="flowerImageFile" src={image} alt="..."/>
         </div>
         <div className="flowerData">
-            <h4>{name}</h4>
-            <h4>{price}</h4>
+            <h4 className="flowerName">{name}</h4>
+            <h4 className="flowerPrice">${price}</h4>
         </div>
-        <div className="flowerTags">
-        <h5>{flowerTags}</h5>
-        </div>
+        
+        <h5 className="flowerTags">{flowerTags}</h5>
+        
       </div>
     );
   };
