@@ -1,6 +1,9 @@
 <h1>Flowerbox</h1>
 <p>An intermediate CSS mockup designed to be completed with any technology.</p>
 
+<h2>Getting started</h2>
+Access the website <a href="https://laurakelly1.github.io/flowerbox/">here!</a>
+
 <h2>Technologies Used</h2>
 <li>React</li>
 <li>CSS</li>
