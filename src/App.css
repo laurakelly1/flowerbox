@@ -14,8 +14,6 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-
-  
 }
 
 /* header */
@@ -190,4 +188,43 @@ a {
 }
 ion-icon {
   padding: 0 5px;
+}
+
+/* Mobile version */
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 0;
+    width: 100%;
+  }
+  .headerBar {
+    font-size: smaller;
+  }
+  .title {
+    margin: 0px;
+    height: 100px;
+    background-size: contain;
+    background-position: left;
+    background-color: var(--lighter-pink);
+  }
+  .flowerTiles {
+    margin: 0;
+    width: 100%;
+  }
+  .flower {
+    width: 45%;
+    margin: 10px;
+  }
+  .footer {
+    margin: 0;
+    width: 100%;
+    flex-flow: column;
+    text-align: center;
+  }
+  .footerMiddle {
+    border: none;
+  }
+  .footerLeft, .footerMiddle, .footerRight {
+    margin: 0;
+    padding: 8px;
+  }
 }
