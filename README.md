@@ -7,6 +7,9 @@
 <li>Google Fonts</li>
 <li>IonIcons</li>
 
+<h2>Getting Started</h2>
+Click <a href='https://flower-box.netlify.app/'>here</a> to get started!
+
 <h2>Screenshot</h2>
 <p align="center">
 <img src="https://github.com/laurakelly1/flowerbox/blob/main/src/images/screencapture-localhost-3000-2022-06-07-17_19_10.png?raw=true"/>

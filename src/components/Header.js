@@ -9,12 +9,24 @@ const Header = () => {
         <a href="#">contact us</a>
       </div>
       <div className="title">
-        <div className="titleText">
-          <h1 className="titleName">flowerbox.</h1>
+        <div className="title-text">
+          <div className="bounce-title">
+            <div className="f">F</div>
+            <div className="l">l</div>
+            <div className="o">o</div>
+            <div className="w">w</div>
+            <div className="e">e</div>
+            <div className="r">r</div>
+            <div className="b">b</div>
+            <div className="o2">o</div>
+            <div className="x">x</div>
+            <div className="period">.</div>
+            <div className="shadow"></div>
+            <div className="shadow-two"></div>
           </div>
-          <h2 className="subtitle">FOR ALL YOUR FLORAL NEEDS</h2>
-        
-      </div>
+        </div>
+       <h2 className="subtitle">FOR ALL YOUR FLORAL NEEDS</h2>
+       </div>
     </div>
   );
 };

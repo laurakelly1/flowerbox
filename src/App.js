@@ -1,4 +1,4 @@
-import './App.css';
+import './style.scss';
 import Flower from './components/Flower';
 import Footer from './components/Footer';
 import Header from './components/Header';
