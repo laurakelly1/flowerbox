@@ -18,6 +18,44 @@ $darker-blue: #5f8b96;
   }
 }
 
+@mixin title-animation {
+  .f {
+    animation: bounce 2s ease 1;
+  }
+
+  .l {
+    animation: bounce 2s ease 1 0.1s;
+  }
+
+  .o {
+    animation: bounce 2s ease 1 0.2s;
+  }
+
+  .w {
+    animation: bounce 2s ease 1 0.3s;
+  }
+
+  .e {
+    animation: bounce 2s ease 1 0.4s;
+  }
+
+  .r {
+    animation: bounce 2s ease 1 0.5s;
+  }
+  .b {
+    animation: bounce 2s ease 1 0.6s;
+  }
+  .o2 {
+    animation: bounce 2s ease 1 0.7s;
+  }
+  .x {
+    animation: bounce 2s ease 1 0.8s;
+  }
+  .period {
+    animation: bounce 2s ease 1 0.9s;
+  }
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "DM Sans", sans-serif;
@@ -93,42 +131,8 @@ body {
         .period {
           color: $blue;
           text-shadow: 0 1px white, 0 1px white, 0 3px white;
-        }
-        .f {
-          animation: bounce 2s ease 1;
-        }
-
-        .l {
-          animation: bounce 2s ease 1 0.1s;
-        }
-
-        .o {
-          animation: bounce 2s ease 1 0.2s;
-        }
-
-        .w {
-          animation: bounce 2s ease 1 0.3s;
-        }
-
-        .e {
-          animation: bounce 2s ease 1 0.4s;
-        }
-
-        .r {
-          animation: bounce 2s ease 1 0.5s;
-        }
-        .b {
-          animation: bounce 2s ease 1 0.6s;
-        }
-        .o2 {
-          animation: bounce 2s ease 1 0.7s;
-        }
-        .x {
-          animation: bounce 2s ease 1 0.8s;
-        }
-        .period {
-          animation: bounce 2s ease 1 0.9s;
-        }
+        };
+        @include title-animation;
       }
     }
     .subtitle {
@@ -299,4 +303,17 @@ body {
       padding: 8px;
     }
   }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 2561px) {
+  .header, .footer, .flowerTiles {
+    margin: 20px 300px 0px 300px;
+  }
+  
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .header, .footer, .flowerTiles {
+    margin: 20px 200px 0px 200px;
+  }
+  
 }
