@@ -1,5 +1,5 @@
 <h1>Flowerbox</h1>
-<p>An intermediate CSS mockup designed to be completed with any technology.</p>
+<p>A CSS/SASS mockup of a flower ecommerce store.</p>
 
 <h2>Technologies Used</h2>
 <li>React</li>
